@@ -1,0 +1,21 @@
+Oracle_Data_Type,Snowflake_Data_Type,Comments
+number,number,
+"number (p,s)","number (p,s)",
+float,double,
+varchar2,varchar,
+nvarchar2,varchar,
+varchar2(s),varchar(s),
+nvarchar2(s),varchar(s),
+char,character,
+char(n),character(n),
+date,date,
+time,time,
+timestamp,timestamp_ntz,
+timestamp(p),timestamp_ntz(p),
+timestamp with time zone,timestamp_tz,
+timestamp with local time zone(p),timestamp_ltz(p),
+timestamp with local time zone,timestamp_ltz,
+binary_float,varbinary,
+binary_double,varbinary,
+clob,variant,WARNING: Closest target datatype is VARIANT
+blob,variant,WARNING: Closest target datatype is VARIANT
